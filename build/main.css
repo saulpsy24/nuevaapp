@@ -9509,13 +9509,13 @@ button[disabled],
 
 .button-outline-ios.activated {
   color: #fff;
-  background-color: #f98012;
+  background-color: #0f4c83;
   opacity: 1;
 }
 
 .button-clear-ios {
   border-color: transparent;
-  color: #f98012;
+  color: #0f4c83;
   background-color: transparent;
 }
 
@@ -9525,7 +9525,7 @@ button[disabled],
 }
 
 .button-clear-ios:hover:not(.disable-hover) {
-  color: #f98012;
+  color: #0f4c83;
   opacity: 0.6;
 }
 
@@ -9854,7 +9854,7 @@ button[disabled],
   font-weight: 500;
   text-transform: uppercase;
   color: #fff;
-  background-color: #f98012;
+  background-color: #0f4c83;
   -webkit-box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   -webkit-transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -9864,7 +9864,7 @@ button[disabled],
 }
 
 [dir="ltr"] .button-md, [dir="rtl"] .button-md {
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 [dir="ltr"] .button-md, [dir="rtl"] .button-md {
@@ -9952,12 +9952,12 @@ button[disabled],
 }
 
 .button-outline-md .button-effect {
-  background-color: #f98012;
+  background-color: #0f4c83;
 }
 
 .button-clear-md {
   border-color: transparent;
-  color: #f98012;
+  color: #0f4c83;
   background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -31038,7 +31038,30 @@ ion-spinner.spinner-paused svg {
 }
 
 .tabs-md .tabbar {
-  background: #626262;
+  background: #0f4c83;
+}
+/**codigo propio**/
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon, .tabs-md ion-app.app-root .core-tabs-bar a[aria-selected=true].tab-slide .tab-button-icon, ion-app.app-root .core-tabs-bar .tabs-md a[aria-selected=true].tab-slide .tab-button-icon {
+  color: #db4b32!important;
+}
+.fab-md {
+  color: #fff;
+  background-color: #db4b32;
+  -webkit-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.14), 0 4px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.14), 0 4px 5px rgba(0, 0, 0, 0.1);
+  -webkit-transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1), background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1), background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+ion-app.app-root ion-select.core-button-select, ion-app.app-root .core-button-select {
+  background-color: white;
+  color: #0f4c83!important;
+  white-space: normal;
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  align-self: start;
+  max-width: none;
 }
 
 .tabs-md .tab-button, .tabs-md ion-app.app-root .core-tabs-bar a.tab-slide, ion-app.app-root .core-tabs-bar .tabs-md a.tab-slide {
@@ -31047,12 +31070,13 @@ ion-spinner.spinner-paused svg {
   color: rgba(255, 255, 255, 0.7);
 }
 
+
 [dir="ltr"] .tabs-md .tab-button, [dir="ltr"] .tabs-md ion-app.app-root .core-tabs-bar a.tab-slide, ion-app.app-root .core-tabs-bar [dir="ltr"] .tabs-md a.tab-slide, [dir="rtl"] .tabs-md .tab-button, [dir="rtl"] .tabs-md ion-app.app-root .core-tabs-bar a.tab-slide, ion-app.app-root .core-tabs-bar [dir="rtl"] .tabs-md a.tab-slide {
   padding: 0;
 }
 
 .tabs-md .tab-button[aria-selected=true], .tabs-md ion-app.app-root .core-tabs-bar a[aria-selected=true].tab-slide, ion-app.app-root .core-tabs-bar .tabs-md a[aria-selected=true].tab-slide {
-  color: #f98012;
+  color: #db4b32;
 }
 
 [dir="ltr"] .tabs-md .tab-button[aria-selected=true], [dir="ltr"] .tabs-md ion-app.app-root .core-tabs-bar a[aria-selected=true].tab-slide, ion-app.app-root .core-tabs-bar [dir="ltr"] .tabs-md a[aria-selected=true].tab-slide, [dir="rtl"] .tabs-md .tab-button[aria-selected=true], [dir="rtl"] .tabs-md ion-app.app-root .core-tabs-bar a[aria-selected=true].tab-slide, ion-app.app-root .core-tabs-bar [dir="rtl"] .tabs-md a[aria-selected=true].tab-slide {
@@ -36680,7 +36704,7 @@ ion-navbar.toolbar {
 
 .toolbar-background-md {
   border-color: #b2b2b2;
-  background: #f98012;
+  background: #0f4c83;
 }
 
 .header-md::after, ion-app.app-root.md .core-tabs-bar::after,
@@ -47822,7 +47846,7 @@ ion-app.app-root.md .button-md {
 }
 
 ion-app.app-root.md .button-md-light {
-  color: #f98012;
+  color: #0f4c83;
 }
 
 ion-app.app-root.md .col[align-self-stretch] .card-md, ion-app.app-root.md .addon-data-contents td[align-self-stretch] .card-md, .addon-data-contents ion-app.app-root.md td[align-self-stretch] .card-md, ion-app.app-root.md .addon-data-contents th[align-self-stretch] .card-md, .addon-data-contents ion-app.app-root.md th[align-self-stretch] .card-md, ion-app.app-root.md .col[align-self-stretch] .core-primary-card, ion-app.app-root.md .addon-data-contents td[align-self-stretch] .core-primary-card, .addon-data-contents ion-app.app-root.md td[align-self-stretch] .core-primary-card, ion-app.app-root.md .addon-data-contents th[align-self-stretch] .core-primary-card, .addon-data-contents ion-app.app-root.md th[align-self-stretch] .core-primary-card, ion-app.app-root.md .col[align-self-stretch] .core-secondary-card, ion-app.app-root.md .addon-data-contents td[align-self-stretch] .core-secondary-card, .addon-data-contents ion-app.app-root.md td[align-self-stretch] .core-secondary-card, ion-app.app-root.md .addon-data-contents th[align-self-stretch] .core-secondary-card, .addon-data-contents ion-app.app-root.md th[align-self-stretch] .core-secondary-card, ion-app.app-root.md .col[align-self-stretch] .core-danger-card, ion-app.app-root.md .addon-data-contents td[align-self-stretch] .core-danger-card, .addon-data-contents ion-app.app-root.md td[align-self-stretch] .core-danger-card, ion-app.app-root.md .addon-data-contents th[align-self-stretch] .core-danger-card, .addon-data-contents ion-app.app-root.md th[align-self-stretch] .core-danger-card, ion-app.app-root.md .col[align-self-stretch] .core-light-card, ion-app.app-root.md .addon-data-contents td[align-self-stretch] .core-light-card, .addon-data-contents ion-app.app-root.md td[align-self-stretch] .core-light-card, ion-app.app-root.md .addon-data-contents th[align-self-stretch] .core-light-card, .addon-data-contents ion-app.app-root.md th[align-self-stretch] .core-light-card, ion-app.app-root.md .col[align-self-stretch] .core-gray-card, ion-app.app-root.md .addon-data-contents td[align-self-stretch] .core-gray-card, .addon-data-contents ion-app.app-root.md td[align-self-stretch] .core-gray-card, ion-app.app-root.md .addon-data-contents th[align-self-stretch] .core-gray-card, .addon-data-contents ion-app.app-root.md th[align-self-stretch] .core-gray-card, ion-app.app-root.md .col[align-self-stretch] .core-dark-card, ion-app.app-root.md .addon-data-contents td[align-self-stretch] .core-dark-card, .addon-data-contents ion-app.app-root.md td[align-self-stretch] .core-dark-card, ion-app.app-root.md .addon-data-contents th[align-self-stretch] .core-dark-card, .addon-data-contents ion-app.app-root.md th[align-self-stretch] .core-dark-card, ion-app.app-root.md .col[align-self-stretch] .core-warning-card, ion-app.app-root.md .addon-data-contents td[align-self-stretch] .core-warning-card, .addon-data-contents ion-app.app-root.md td[align-self-stretch] .core-warning-card, ion-app.app-root.md .addon-data-contents th[align-self-stretch] .core-warning-card, .addon-data-contents ion-app.app-root.md th[align-self-stretch] .core-warning-card, ion-app.app-root.md .col[align-self-stretch] .core-success-card, ion-app.app-root.md .addon-data-contents td[align-self-stretch] .core-success-card, .addon-data-contents ion-app.app-root.md td[align-self-stretch] .core-success-card, ion-app.app-root.md .addon-data-contents th[align-self-stretch] .core-success-card, .addon-data-contents ion-app.app-root.md th[align-self-stretch] .core-success-card, ion-app.app-root.md .col[align-self-stretch] .core-info-card, ion-app.app-root.md .addon-data-contents td[align-self-stretch] .core-info-card, .addon-data-contents ion-app.app-root.md td[align-self-stretch] .core-info-card, ion-app.app-root.md .addon-data-contents th[align-self-stretch] .core-info-card, .addon-data-contents ion-app.app-root.md th[align-self-stretch] .core-info-card {
@@ -49562,9 +49586,9 @@ ion-app.app-root .core-tabs-bar a.tab-slide span {
 }
 
 ion-app.app-root .core-tabs-bar a.tab-slide[aria-selected=true] {
-  color: #f98012 !important;
+  color: #0f4c83 !important;
   border: 0 !important;
-  border-bottom: 2px solid #f98012 !important;
+  border-bottom: 2px solid #0f4c84 !important;
 }
 
 ion-app.app-root .core-tabs-bar ion-col {
@@ -50483,6 +50507,9 @@ ion-app.app-root page-core-login-credentials img {
 ion-app.app-root page-core-login-credentials img.login-logo {
   width: 90%;
   max-width: 300px;
+}
+ion-app.app-root page-core-login-credentials p.core-siteurl {
+  display:none;
 }
 
 ion-app.app-root page-core-login-credentials .box {
