@@ -3,9 +3,9 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.conamat.elearning"
-        versionCode = "35200"
-        android-versionCode="35200"
-        version   = "3.5.2">
+        versionCode = "35210"
+        android-versionCode="35210"
+        version   = "3.5.2.1">
     <name>CONAMAT</name>
 
     <description>
