@@ -3,9 +3,9 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.conamat.elearning"
-        versionCode = "35300"
-        android-versionCode="35300"
-        version   = "3.5.3">
+        versionCode = "35400"
+        android-versionCode="35400"
+        version   = "3.5.40">
     <name>CONAMAT</name>
 
     <description>
@@ -17,7 +17,7 @@
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
-        <string>3.5.3</string>
+        <string>3.5.40</string>
     </edit-config>
 
     <gap:platform name="ios" />
