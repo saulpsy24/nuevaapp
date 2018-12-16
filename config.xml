@@ -2,10 +2,10 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.conamat.elearningcnm"
-        versionCode = "35420"
-        android-versionCode="35420"
-        version   = "3.5.42">
+        id        = "com.conamat.elearning"
+        versionCode = "35450"
+        android-versionCode="35450"
+        version   = "3.5.50">
     <name>CONAMAT</name>
 
     <description>
@@ -17,7 +17,7 @@
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
-        <string>3.5.42</string>
+        <string>3.5.50</string>
     </edit-config>
 
     <gap:platform name="ios" />
